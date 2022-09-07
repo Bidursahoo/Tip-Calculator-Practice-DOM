@@ -30,6 +30,7 @@ const increasePeople = () => {
 }
 const decreasePeople =() => {
     if(noOfPeople ==1){
+        alert("You cannot go less than 1 !!")
         return
     }
     noOfPeople-=1;
